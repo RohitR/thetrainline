@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "date"
+require 'date'
 
 class Segment
   attr_reader :departure_station, :departure_at, :arrival_station, :arrival_at,
@@ -30,7 +30,7 @@ class Segment
       duration_in_minutes: duration_in_minutes,
       changeovers: changeovers,
       products: products,
-      fares: fares.map { |f| f.to_h }
+      fares: fares.map(&:to_h)
     }
   end
 

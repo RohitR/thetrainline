@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require "json"
+require 'json'
 
 module Clients
   class FileClient
     def initialize(file_path: nil)
-      @file_path = file_path || File.expand_path("../../../data/journeys_sample.json", __FILE__)
+      @file_path = file_path || File.expand_path('../../data/journeys_sample.json', __dir__)
     end
 
     def search_journeys(from:, to:, departure_at:)

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "../clients/file_client"
-require_relative "../journey_search"
+require_relative '../clients/file_client'
+require_relative '../journey_search'
 module Bot
   module Thetrainline
     module_function
