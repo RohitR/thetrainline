@@ -1,7 +1,9 @@
 # frozen_string_literal: true
+
+# rubocop:disable Metrics/BlockLength
+
 require 'spec_helper'
 require 'core/fare_calculator'
-
 
 RSpec.describe Core::FareCalculator do
   it 'returns [] when journey has no sections' do
@@ -11,7 +13,7 @@ RSpec.describe Core::FareCalculator do
 
   it 'builds combinations and calculates total price and currency' do
     sections = {
-      's1' => { 'alternatives' => ['a1', 'a2'] },
+      's1' => { 'alternatives' => %w[a1 a2] },
       's2' => { 'alternatives' => ['b1'] }
     }
     alternatives = {
@@ -21,8 +23,8 @@ RSpec.describe Core::FareCalculator do
     }
 
     calc = Core::FareCalculator.new(sections: sections, alternatives: alternatives)
-    fares = calc.fares_for('sections' => ['s1', 's2'])
-    expect(fares.map(&:price_in_cents)).to contain_exactly( (10.5 + 2.25)*100 .to_i, (5.0 + 2.25)*100 .to_i )
+    fares = calc.fares_for('sections' => %w[s1 s2])
+    expect(fares.map(&:price_in_cents)).to contain_exactly((10.5 + 2.25) * 100.to_i, (5.0 + 2.25) * 100.to_i)
     expect(fares.all? { |f| f.currency == 'GBP' }).to be true
     expect(fares.map(&:name)).to include('a1+b1', 'a2+b1')
   end
@@ -36,3 +38,4 @@ RSpec.describe Core::FareCalculator do
     expect(fare.price_in_cents).to eq(100)
   end
 end
+# rubocop:enable Metrics/BlockLength

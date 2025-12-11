@@ -1,7 +1,7 @@
 # frozen_string_literal: true
+
 require 'spec_helper'
 require 'models/segment'
-
 
 RSpec.describe Models::Segment do
   it 'parses different time types and returns a hash' do

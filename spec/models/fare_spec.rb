@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'spec_helper'
 require 'models/fare'
 
@@ -10,10 +11,10 @@ RSpec.describe Models::Fare do
     expect(fare.currency).to eq('EUR')
     expect(fare.meta).to eq({ foo: 'bar' })
     expect(fare.to_h).to eq({
-      name: 'A',
-      price_in_cents: 1234,
-      currency: 'EUR',
-      meta: { foo: 'bar' }
-    })
+                              name: 'A',
+                              price_in_cents: 1234,
+                              currency: 'EUR',
+                              meta: { foo: 'bar' }
+                            })
   end
 end

@@ -1,4 +1,7 @@
 # frozen_string_literal: true
+
+# rubocop:disable Metrics/BlockLength
+
 require 'spec_helper'
 require 'core/search'
 
@@ -37,9 +40,11 @@ RSpec.describe Core::Search do
     }
 
     client = double('client')
-    expect(client).to receive(:search_journeys).with(from: 'berlin', to: 'paris', departure_at: departure_at).and_return(raw)
+    expect(client).to receive(:search_journeys).with(from: 'berlin', to: 'paris',
+                                                     departure_at: departure_at).and_return(raw)
 
-    search = Core::Search.new(from: 'berlin', to: 'paris', departure_at: departure_at, client: client, segments_needed: 1)
+    search = Core::Search.new(from: 'berlin', to: 'paris', departure_at: departure_at, client: client,
+                              segments_needed: 1)
     segments = search.call
     expect(segments).to be_an(Array)
     expect(segments.size).to eq(1)
@@ -76,3 +81,4 @@ RSpec.describe Core::Search do
     expect(result.first.duration_in_minutes).to eq(45)
   end
 end
+# rubocop:enable Metrics/BlockLength

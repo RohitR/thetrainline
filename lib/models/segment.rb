@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# rubocop:disable Metrics/ParameterLists
+
 require 'date'
 
 module Models
@@ -8,7 +10,7 @@ module Models
                 :service_agencies, :duration_in_minutes, :changeovers, :products, :fares
 
     def initialize(departure_station:, departure_at:, arrival_station:, arrival_at:,
-                  service_agencies:, duration_in_minutes:, changeovers:, products:, fares:)
+                   service_agencies:, duration_in_minutes:, changeovers:, products:, fares:)
       @departure_station = departure_station
       @departure_at = to_datetime(departure_at)
       @arrival_station = arrival_station
@@ -18,7 +20,6 @@ module Models
       @changeovers = changeovers.to_i
       @products = Array(products)
       @fares = Array(fares).freeze
-      freeze
     end
 
     def to_h
@@ -30,8 +31,7 @@ module Models
         service_agencies: service_agencies,
         duration_in_minutes: duration_in_minutes,
         changeovers: changeovers,
-        products: products,
-        fares: fares.map(&:to_h)
+        products: products, fares: fares.map(&:to_h)
       }
     end
 
@@ -47,3 +47,4 @@ module Models
     end
   end
 end
+# rubocop:enable Metrics/ParameterLists

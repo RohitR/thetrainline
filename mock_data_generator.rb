@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
-require "json"
-require "securerandom"
-require "time"
-require "fileutils"
+# frozen_string_literal: true
+
+# rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+require 'json'
+require 'securerandom'
+require 'time'
+require 'fileutils'
 
 class MockJourneyGenerator
   def initialize(from:, to:, count:)
@@ -17,11 +20,11 @@ class MockJourneyGenerator
     alternatives = {}
 
     @count.times do
-      journey_id = uuid("journey")
+      journey_id = uuid('journey')
       depart_at, arrive_at = random_times
 
-      section_ids = [uuid("section"), uuid("section")]
-      leg_ids = [uuid("leg"), uuid("leg")]
+      section_ids = [uuid('section'), uuid('section')]
+      leg_ids = [uuid('leg'), uuid('leg')]
 
       # Each journey links to its two sections
       section_ids.each do |sid|
@@ -29,27 +32,27 @@ class MockJourneyGenerator
       end
 
       journeys[journey_id] = {
-        "sections" => section_ids,
-        "id" => journey_id,
-        "direction" => "outward",
-        "legs" => leg_ids,
-        "departAt" => depart_at,
-        "arriveAt" => arrive_at,
-        "duration" => iso_duration(depart_at, arrive_at),
-        "hash" => random_hash,
-        "hasFirstClassRecommendedStationPair" => false,
-        "distanceInKm" => 0
+        'sections' => section_ids,
+        'id' => journey_id,
+        'direction' => 'outward',
+        'legs' => leg_ids,
+        'departAt' => depart_at,
+        'arriveAt' => arrive_at,
+        'duration' => iso_duration(depart_at, arrive_at),
+        'hash' => random_hash,
+        'hasFirstClassRecommendedStationPair' => false,
+        'distanceInKm' => 0
       }
     end
 
     output = {
-      "data" => {
-        "journeySearch" => {
-          "journeys" => journeys,
-          "id" => uuid,
-          "expiresAt" => (Time.now.utc + 3600).iso8601,
-          "alternatives" => alternatives,
-          "sections" => sections
+      'data' => {
+        'journeySearch' => {
+          'journeys' => journeys,
+          'id' => uuid,
+          'expiresAt' => (Time.now.utc + 3600).iso8601,
+          'alternatives' => alternatives,
+          'sections' => sections
         }
       }
     }
@@ -64,21 +67,13 @@ class MockJourneyGenerator
     alt_ids = 1.upto(rand(2..4)).map do
       alt_id = "#{uuid}%alternative-#{SecureRandom.uuid}"
       alternatives[alt_id] = {
-        "id" => alt_id,
-        "price" => {
-          "amount" => random_price,
-          "currencyCode" => "EUR",
-          "currencyConversionApplied" => false
-        }
+        'id' => alt_id,
+        'price' =>
+        { 'amount' => random_price, 'currencyCode' => 'EUR', 'currencyConversionApplied' => false }
       }
       alt_id
     end
-
-    {
-      "alternatives" => alt_ids,
-      "mixedLegComforts" => false,
-      "id" => uuid("section")
-    }
+    { 'alternatives' => alt_ids, 'mixedLegComforts' => false, 'id' => uuid('section') }
   end
 
   def random_times
@@ -112,7 +107,7 @@ class MockJourneyGenerator
   end
 
   def write_file(data)
-    FileUtils.mkdir_p("data")
+    FileUtils.mkdir_p('data')
     file_name = "data/#{@from.downcase}_#{@to.downcase}.json"
     File.write(file_name, JSON.pretty_generate(data))
     puts "Generated #{file_name}"
@@ -120,12 +115,13 @@ class MockJourneyGenerator
 end
 
 # CLI execution
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   from, to, count = ARGV
   unless from && to && count
-    puts "Usage: ruby generate_mock.rb FROM TO COUNT"
+    puts 'Usage: ruby generate_mock.rb FROM TO COUNT'
     exit 1
   end
 
   MockJourneyGenerator.new(from: from, to: to, count: count).run
 end
+# rubocop:enable Metrics/AbcSize, Metrics/MethodLength

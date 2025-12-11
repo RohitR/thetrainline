@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'date'
 require_relative 'response'
 require_relative 'fare_calculator'
@@ -20,19 +21,34 @@ module Core
     end
 
     def call
-      response = Response.new(
-        client.search_journeys(from: from, to: to, departure_at: departure_at)
-      )
+      journeys = fetch_journeys
+      calculator = build_fare_calculator(journeys)
+      segments = build_segments(journeys, calculator)
 
-      calculator = FareCalculator.new(
+      select_segments(segments)
+    end
+
+    private
+
+    def fetch_journeys
+      raw = client.search_journeys(from: from, to: to, departure_at: departure_at)
+      Response.new(raw)
+    end
+
+    def build_fare_calculator(response)
+      FareCalculator.new(
         sections: response.sections,
         alternatives: response.alternatives
       )
+    end
 
-      segments = response.journeys.values.map do |j|
-        build_segment(j, calculator)
+    def build_segments(response, calculator)
+      response.journeys.values.map do |journey|
+        build_segment(journey, calculator)
       end.compact
+    end
 
+    def select_segments(segments)
       HourlySegmentSelector.new(
         segments: segments,
         departure_at: departure_at,
@@ -40,27 +56,32 @@ module Core
       ).call
     end
 
-    private
-
     def build_segment(journey, calculator)
-      legs = journey['legs'] || []
-      return nil if legs.empty?
+      return nil if (journey['legs'] || []).empty?
 
       Models::Segment.new(
         departure_station: from,
-        departure_at: DateTime.parse(journey['departAt']),
-        arrival_station: to,
-        arrival_at: DateTime.parse(journey['arriveAt']),
+        departure_at: parse_dt(journey['departAt']), arrival_station: to,
+        arrival_at: parse_dt(journey['arriveAt']),
         service_agencies: ['thetrainline'],
         duration_in_minutes: parse_duration(journey['duration']),
-        changeovers: legs.size - 1,
-        products: journey['products'] || ['train'],
-        fares: calculator.fares_for(journey)
+        changeovers: changeovers(journey),
+        products: journey['products'] || ['train'], fares: calculator.fares_for(journey)
       )
+    end
+
+    def parse_dt(str)
+      DateTime.parse(str)
+    end
+
+    def changeovers(journey)
+      legs = journey['legs'] || []
+      legs.size - 1
     end
 
     def parse_duration(str)
       return nil unless str
+
       hours = str[/(\d+)H/, 1].to_i
       minutes = str[/(\d+)M/, 1].to_i
       hours * 60 + minutes

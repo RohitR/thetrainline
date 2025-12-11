@@ -14,7 +14,7 @@ module Core
 
     def call
       grouped = group_by_hour(@segments)
-      choose_segments(grouped)
+      pick_segments(grouped)
     end
 
     private
@@ -22,35 +22,49 @@ module Core
     def group_by_hour(segments)
       grouped = Hash.new { |h, k| h[k] = [] }
       segments.each do |s|
-        key = s.departure_at.strftime('%Y-%m-%dT%H')
+        key = hour_key(s.departure_at)
         grouped[key] << s
       end
       grouped.each_value(&:sort_by!)
       grouped
     end
 
-    def choose_segments(grouped)
+    def pick_segments(grouped)
       results = []
       looked = Set.new
       cursor = @departure_at
 
-      while results.size < @limit && looked.size < LOOKUP_HOUR_CAP
-        key = cursor.strftime('%Y-%m-%dT%H')
-
-        if !looked.include?(key)
-          results << grouped[key]&.first if grouped[key]&.any?
-          looked << key
-        end
-
+      while needs_more?(results, looked)
+        try_pick_hour(grouped, results, looked, cursor)
         cursor += Rational(1, 24)
       end
 
-      if results.size < @limit
-        leftover = @segments.reject { |s| results.include?(s) }.sort_by(&:departure_at)
-        leftover.each { |s| results << s }
-      end
-
+      fill_with_leftovers(results)
       results.first(@limit)
+    end
+
+    def needs_more?(results, looked)
+      results.size < @limit && looked.size < LOOKUP_HOUR_CAP
+    end
+
+    def try_pick_hour(grouped, results, looked, cursor)
+      key = hour_key(cursor)
+      return if looked.include?(key)
+
+      first_segment = grouped[key]&.first
+      results << first_segment if first_segment
+      looked << key
+    end
+
+    def fill_with_leftovers(results)
+      return if results.size >= @limit
+
+      leftovers = @segments.reject { |s| results.include?(s) }.sort_by(&:departure_at)
+      leftovers.each { |s| results << s }
+    end
+
+    def hour_key(time)
+      time.strftime('%Y-%m-%dT%H')
     end
   end
 end

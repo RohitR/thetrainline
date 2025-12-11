@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
-require "json"
-require_relative "base_client"
+require 'json'
+require_relative 'base_client'
 
 module Clients
   class FileClient < BaseClient
-    BASE_PATH = "data"
+    BASE_PATH = 'data'
 
     def search_journeys(from:, to:, departure_at:)
       cache_key = "#{from}-#{to}-#{departure_at}"

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require_relative '../models/fare'
 
 module Core
@@ -30,7 +31,7 @@ module Core
       items = combo.is_a?(Array) ? combo : [combo]
 
       total = items.sum { |alt| alt.dig('price', 'amount').to_f }
-      currency = items.first.dig('price', 'currencyCode') || "EUR"
+      currency = items.first.dig('price', 'currencyCode') || 'EUR'
 
       Models::Fare.new(
         name: items.map { |c| c['id'] }.join('+'),
