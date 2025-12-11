@@ -9,15 +9,19 @@ module Core
       @alternatives = alternatives
     end
 
+    # rubocop:disable Metrics/CyclomaticComplexity
     def fares_for(journey)
       section_ids = journey['sections'] || []
       return [] if section_ids.empty?
 
       alt_groups = section_ids.map { |sid| alt_list_for_section(sid) }
+      return [] if alt_groups.any?(&:empty?)
+
       combos = alt_groups.first.product(*alt_groups.drop(1))
 
       combos.map { |combo| build_fare(combo) }.sort_by(&:price_in_cents)
     end
+    # rubocop:enable Metrics/CyclomaticComplexity
 
     private
 
@@ -35,7 +39,8 @@ module Core
 
       Models::Fare.new(
         name: items.map { |c| c['id'] }.join('+'),
-        price_in_cents: (total * 100).to_i,
+        # round to nearest cent
+        price_in_cents: (total * 100).round.to_i,
         currency: currency,
         meta: items
       )

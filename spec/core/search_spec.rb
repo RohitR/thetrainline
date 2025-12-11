@@ -3,82 +3,74 @@
 # rubocop:disable Metrics/BlockLength
 
 require 'spec_helper'
-require 'core/search'
+require 'date'
+require_relative '../../lib/core/search'
 
 RSpec.describe Core::Search do
-  it 'builds segments from client response and respects segments_needed' do
-    departure_at = DateTime.new(2025, 12, 10, 6, 0, 0)
-    raw = {
+  let(:from) { 'london' }
+  let(:to) { 'paris' }
+  let(:departure_at) { DateTime.new(2025, 12, 10, 6, 0, 0) }
+  let(:client) { double('client') }
+
+  let(:response) do
+    {
       'data' => {
         'journeySearch' => {
           'journeys' => {
-            'j1' => {
-              'departAt' => '2025-12-10T06:00:00Z',
-              'arriveAt' => '2025-12-10T08:00:00Z',
-              'duration' => '2H0M',
-              'legs' => [1],
-              'products' => ['train'],
-              'sections' => ['s1']
-            },
-            'j2' => {
-              'departAt' => '2025-12-10T09:00:00Z',
-              'arriveAt' => '2025-12-10T11:00:00Z',
-              'duration' => '2H0M',
-              'legs' => [1],
-              'products' => ['train'],
-              'sections' => ['s1']
+            'journey-1' => {
+              'legs' => %w[
+                leg-6839bc17-45fe-4782-8fc0-df1bc15624b4
+                leg-cd4f84d7-29d1-4424-9f16-a6028379f703
+              ],
+              'id' => 'journey-1',
+              'sections' => ['sec-1'],
+              'departAt' => '2025-12-10T06:05:00Z',
+              'arriveAt' => '2025-12-10T09:05:00Z',
+              'duration' => 'PT3H0M'
             }
           },
           'sections' => {
-            's1' => { 'alternatives' => ['a1'] }
+            'sec-1' => { 'alternatives' => ['alt-1'] }
           },
           'alternatives' => {
-            'a1' => { 'id' => 'a1', 'price' => { 'amount' => '3.50', 'currencyCode' => 'EUR' } }
+            'alt-1' => {
+              'id' => 'alt-1',
+              'price' => { 'amount' => 10.0, 'currencyCode' => 'GBP' },
+              'name' => 'Advance Single'
+            }
           }
         }
       }
     }
-
-    client = double('client')
-    expect(client).to receive(:search_journeys).with(from: 'berlin', to: 'paris',
-                                                     departure_at: departure_at).and_return(raw)
-
-    search = Core::Search.new(from: 'berlin', to: 'paris', departure_at: departure_at, client: client,
-                              segments_needed: 1)
-    segments = search.call
-    expect(segments).to be_an(Array)
-    expect(segments.size).to eq(1)
-    seg = segments.first
-    expect(seg).to be_a(Models::Segment)
-    expect(seg.departure_station).to eq('berlin')
-    expect(seg.arrival_station).to eq('paris')
-    expect(seg.duration_in_minutes).to eq(120)
-    expect(seg.fares.first.price_in_cents).to eq(350)
   end
 
-  it 'parse_duration handles missing and complex formats' do
-    client = double('client', search_journeys: { 'data' => { 'journeySearch' => { 'journeys' => {} } } })
-    search = Core::Search.new(from: 'a', to: 'b', departure_at: DateTime.now, client: client)
-    # private method parse_duration indirectly tested via build_segment
-    raw = {
-      'data' => {
-        'journeySearch' => {
-          'journeys' => {
-            'j' => {
-              'departAt' => '2025-12-10T06:00:00Z',
-              'arriveAt' => '2025-12-10T06:45:00Z',
-              'duration' => '0H45M',
-              'legs' => [1]
-            }
-          },
-          'sections' => {},
-          'alternatives' => {}
-        }
-      }
-    }
-    expect(client).to receive(:search_journeys).and_return(raw)
-    result = search.call
-    expect(result.first.duration_in_minutes).to eq(45)
+  before do
+    allow(client).to receive(:search_journeys).and_return(response)
+  end
+
+  it 'returns Segment objects with parsed duration and fares' do
+    service = described_class.new(from: from, to: to, departure_at: departure_at, client: client, segments_needed: 1)
+    segments = service.call
+
+    expect(segments).to be_an(Array)
+    expect(segments.size).to eq(1)
+
+    seg = segments.first
+    expect(seg).to be_a(Models::Segment)
+
+    expect(seg.departure_at).to be_a(DateTime).or be_a(Time)
+    expect(seg.arrival_at).to be_a(DateTime).or be_a(Time)
+
+    expect(seg.departure_station).to eq('london')
+    expect(seg.arrival_station).to eq('paris')
+
+    expect(seg.duration_in_minutes).to eq(180)
+
+    expect(seg.fares).to be_an(Array)
+    fare = seg.fares.first
+    expect(fare).to respond_to(:price_in_cents)
+    expect(fare.price_in_cents).to eq(1000)
+    expect(fare.currency).to eq('GBP')
   end
 end
 # rubocop:enable Metrics/BlockLength

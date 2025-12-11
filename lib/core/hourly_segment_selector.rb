@@ -22,10 +22,10 @@ module Core
     def group_by_hour(segments)
       grouped = Hash.new { |h, k| h[k] = [] }
       segments.each do |s|
-        key = hour_key(s.departure_at)
+        key = s.departure_at.strftime('%Y-%m-%dT%H')
         grouped[key] << s
       end
-      grouped.each_value(&:sort_by!)
+      grouped.each_value { |arr| arr.sort_by!(&:departure_at) }
       grouped
     end
 
