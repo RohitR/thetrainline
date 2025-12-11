@@ -7,7 +7,7 @@ module Bot
     module_function
 
     def find(from, to, departure_at, options = {})
-      client = options[:client] || Clients::FileClient.new(file_path: options[:data_file])
+      client = options[:client] || Clients::FileClient.new
       service = JourneySearch.new(from: from, to: to, departure_at: departure_at, client: client)
       service.call
     end
