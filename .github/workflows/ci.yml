@@ -1,0 +1,29 @@
+# Minimal Ruby CI: installs dependencies and runs specs
+name: Ruby CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.9
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: |
+          gem install bundler --conservative
+          bundle install --jobs 4 --retry 3
+
+      - name: Run RSpec
+        env:
+          CI: true
+        run: bundle exec rspec
