@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 require 'spec_helper'
-require 'journey/segment'
+require 'models/segment'
 
 
-RSpec.describe Journey::Segment do
+RSpec.describe Models::Segment do
   it 'parses different time types and returns a hash' do
-    fare = Journey::Fare.new(name: 'X', price_in_cents: 1000, currency: 'EUR', meta: {})
-    seg = Journey::Segment.new(
+    fare = Models::Fare.new(name: 'X', price_in_cents: 1000, currency: 'EUR', meta: {})
+    seg = Models::Segment.new(
       departure_station: 'A',
       departure_at: '2025-01-01T08:00:00Z',
       arrival_station: 'B',

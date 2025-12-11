@@ -2,7 +2,7 @@
 
 require 'set'
 
-module Journey
+module Core
   class HourlySegmentSelector
     LOOKUP_HOUR_CAP = 24 * 7
 

@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 require 'spec_helper'
-require 'journey/search'
+require 'core/search'
 
-RSpec.describe Journey::Search do
+RSpec.describe Core::Search do
   it 'builds segments from client response and respects segments_needed' do
     departure_at = DateTime.new(2025, 12, 10, 6, 0, 0)
     raw = {
@@ -39,12 +39,12 @@ RSpec.describe Journey::Search do
     client = double('client')
     expect(client).to receive(:search_journeys).with(from: 'berlin', to: 'paris', departure_at: departure_at).and_return(raw)
 
-    search = Journey::Search.new(from: 'berlin', to: 'paris', departure_at: departure_at, client: client, segments_needed: 1)
+    search = Core::Search.new(from: 'berlin', to: 'paris', departure_at: departure_at, client: client, segments_needed: 1)
     segments = search.call
     expect(segments).to be_an(Array)
     expect(segments.size).to eq(1)
     seg = segments.first
-    expect(seg).to be_a(Journey::Segment)
+    expect(seg).to be_a(Models::Segment)
     expect(seg.departure_station).to eq('berlin')
     expect(seg.arrival_station).to eq('paris')
     expect(seg.duration_in_minutes).to eq(120)
@@ -53,7 +53,7 @@ RSpec.describe Journey::Search do
 
   it 'parse_duration handles missing and complex formats' do
     client = double('client', search_journeys: { 'data' => { 'journeySearch' => { 'journeys' => {} } } })
-    search = Journey::Search.new(from: 'a', to: 'b', departure_at: DateTime.now, client: client)
+    search = Core::Search.new(from: 'a', to: 'b', departure_at: DateTime.now, client: client)
     # private method parse_duration indirectly tested via build_segment
     raw = {
       'data' => {

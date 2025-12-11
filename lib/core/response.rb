@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Journey
+module Core
   class Response
     attr_reader :raw
 

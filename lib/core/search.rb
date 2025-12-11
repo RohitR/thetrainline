@@ -3,9 +3,9 @@ require 'date'
 require_relative 'response'
 require_relative 'fare_calculator'
 require_relative 'hourly_segment_selector'
-require_relative 'segment'
+require_relative '../models/segment'
 
-module Journey
+module Core
   class Search
     DEFAULT_SEGMENTS = 10
 
@@ -46,7 +46,7 @@ module Journey
       legs = journey['legs'] || []
       return nil if legs.empty?
 
-      Segment.new(
+      Models::Segment.new(
         departure_station: from,
         departure_at: DateTime.parse(journey['departAt']),
         arrival_station: to,

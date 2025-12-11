@@ -2,7 +2,7 @@
 
 require 'date'
 
-module Journey
+module Models
   class Segment
     attr_reader :departure_station, :departure_at, :arrival_station, :arrival_at,
                 :service_agencies, :duration_in_minutes, :changeovers, :products, :fares

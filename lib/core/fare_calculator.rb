@@ -1,7 +1,7 @@
 # frozen_string_literal: true
-require_relative 'fare'
+require_relative '../models/fare'
 
-module Journey
+module Core
   class FareCalculator
     def initialize(sections:, alternatives:)
       @sections = sections
@@ -32,7 +32,7 @@ module Journey
       total = items.sum { |alt| alt.dig('price', 'amount').to_f }
       currency = items.first.dig('price', 'currencyCode') || "EUR"
 
-      Fare.new(
+      Models::Fare.new(
         name: items.map { |c| c['id'] }.join('+'),
         price_in_cents: (total * 100).to_i,
         currency: currency,

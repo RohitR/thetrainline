@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Journey
+module Models
   class Fare
     attr_reader :name, :price_in_cents, :currency, :meta
 
