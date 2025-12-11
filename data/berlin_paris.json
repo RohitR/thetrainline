@@ -1,0 +1,1133 @@
+{
+  "data": {
+    "journeySearch": {
+      "journeys": {
+        "journey-bdab04d1-1bc8-4e96-bc45-102f074c200f": {
+          "sections": [
+            "section-c701ea0c-2c7b-4094-ab7f-bdc1e472a40a",
+            "section-39ae50d2-7097-454a-86dd-bf16ea0fbc41"
+          ],
+          "id": "journey-bdab04d1-1bc8-4e96-bc45-102f074c200f",
+          "direction": "outward",
+          "legs": [
+            "leg-6839bc17-45fe-4782-8fc0-df1bc15624b4",
+            "leg-cd4f84d7-29d1-4424-9f16-a6028379f703"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T23:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "+Sx+9dSaL24=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-fea9cff0-6221-4b6d-896f-99995978815d": {
+          "sections": [
+            "section-6cf60ef0-e4ff-4305-9ed6-096fbf5833c0",
+            "section-7744ec3e-05bd-40b6-9951-ca7b36aa51da"
+          ],
+          "id": "journey-fea9cff0-6221-4b6d-896f-99995978815d",
+          "direction": "outward",
+          "legs": [
+            "leg-b6f4a85e-65c1-420b-b5dc-e2a649db887a",
+            "leg-8ce1d149-af29-460b-9a27-b7aeec257348"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T22:22:46+01:00",
+          "duration": "PT8H0M",
+          "hash": "tMQns6Fn3a8=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-78ff3512-7134-4241-93d2-723259569437": {
+          "sections": [
+            "section-39ed2809-3d34-46cf-9477-b2caecbe4185",
+            "section-f30f8f13-beed-4eec-8663-fe71177405bf"
+          ],
+          "id": "journey-78ff3512-7134-4241-93d2-723259569437",
+          "direction": "outward",
+          "legs": [
+            "leg-a5ee4903-4740-4976-8699-2510f04e95a4",
+            "leg-56f34b0d-d08c-46df-87e0-3ba7d3b2b642"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T23:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "wKFRUV2Ud80=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-54682c99-71c6-42f8-83a1-72a44b3777a5": {
+          "sections": [
+            "section-f81a539c-fa8b-40c9-a285-983e8e25fd52",
+            "section-15dc5a06-84b5-4863-a708-24a324520c83"
+          ],
+          "id": "journey-54682c99-71c6-42f8-83a1-72a44b3777a5",
+          "direction": "outward",
+          "legs": [
+            "leg-9c9d07fb-8baf-404c-8588-4972f4bdc624",
+            "leg-c9b67915-1e2a-44f2-8791-4015ea85f06a"
+          ],
+          "departAt": "2025-12-11T13:22:46+01:00",
+          "arriveAt": "2025-12-11T22:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "3dNLjciCREA=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-2f103188-cc27-4b6e-904a-364e0e34d731": {
+          "sections": [
+            "section-177520d7-ad80-468d-8b4e-b26d8498366f",
+            "section-e9f3f3fe-1efa-48df-98d6-8f35897d3f06"
+          ],
+          "id": "journey-2f103188-cc27-4b6e-904a-364e0e34d731",
+          "direction": "outward",
+          "legs": [
+            "leg-8e24a614-d420-4ec7-b81b-617e0d6c7b88",
+            "leg-87fb8594-5299-4955-90dc-199a0dc3d0f9"
+          ],
+          "departAt": "2025-12-11T13:22:46+01:00",
+          "arriveAt": "2025-12-11T22:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "fmo/DMUd8ZE=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-1dcaff08-2a32-4f64-86a2-66e3efd3d373": {
+          "sections": [
+            "section-26427fd5-e864-4396-a4fe-f0f7c6992030",
+            "section-220fab06-eece-4434-94dd-a3e4a2fb1868"
+          ],
+          "id": "journey-1dcaff08-2a32-4f64-86a2-66e3efd3d373",
+          "direction": "outward",
+          "legs": [
+            "leg-c386315f-3ae8-4400-bd58-b8e1dee80b81",
+            "leg-19baa36e-4345-4d1b-abce-87f5fa05152f"
+          ],
+          "departAt": "2025-12-11T15:22:46+01:00",
+          "arriveAt": "2025-12-11T21:22:46+01:00",
+          "duration": "PT6H0M",
+          "hash": "ZofQjEWw1BM=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-68b023c4-0765-48eb-be09-b50d6ab6af66": {
+          "sections": [
+            "section-c8102a63-de31-4d6b-ac35-8e8d945f544c",
+            "section-03256c7a-9795-4cde-9d8a-0661e01dbdc0"
+          ],
+          "id": "journey-68b023c4-0765-48eb-be09-b50d6ab6af66",
+          "direction": "outward",
+          "legs": [
+            "leg-aca7c6c4-27c4-4102-8f55-869ca6705992",
+            "leg-4258ebcd-e9a1-4820-ab84-f17fe7883ca7"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T18:22:46+01:00",
+          "duration": "PT4H0M",
+          "hash": "mv6V/Ioq0aE=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-94be905d-3fe3-42b2-acea-b0a558b7b663": {
+          "sections": [
+            "section-a60c7f4b-226a-4134-91c2-d9af80f826ac",
+            "section-73d09c13-cbd8-4f69-a27a-5eb5175585c0"
+          ],
+          "id": "journey-94be905d-3fe3-42b2-acea-b0a558b7b663",
+          "direction": "outward",
+          "legs": [
+            "leg-143be234-f050-42ab-b9e2-ad33d54db056",
+            "leg-3885988d-9ec7-41fe-8bae-59f541f570da"
+          ],
+          "departAt": "2025-12-11T15:22:46+01:00",
+          "arriveAt": "2025-12-12T00:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "ltBKynkY7eo=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-9b9710a2-9237-4c12-8549-d87a6686948a": {
+          "sections": [
+            "section-440ef7ce-8d50-4998-99fd-b1cc04a6f518",
+            "section-74a298d0-9f1b-4651-8a69-b7456b516f75"
+          ],
+          "id": "journey-9b9710a2-9237-4c12-8549-d87a6686948a",
+          "direction": "outward",
+          "legs": [
+            "leg-3ee50869-2ecd-4865-b657-906f61469e3a",
+            "leg-8f19abde-15dc-4f16-86de-47a3b6ee8be4"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-12T00:22:46+01:00",
+          "duration": "PT10H0M",
+          "hash": "mF3L2IX8ZSQ=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-2166bbb8-0a4c-4bcc-a7a8-a5da3970afb2": {
+          "sections": [
+            "section-2ad5b846-b525-40d0-9d38-76c52ae19f51",
+            "section-35b5158f-214e-4195-8cf8-bd2d9a15e911"
+          ],
+          "id": "journey-2166bbb8-0a4c-4bcc-a7a8-a5da3970afb2",
+          "direction": "outward",
+          "legs": [
+            "leg-2cb3b8ad-1ffd-4615-afd5-0339c789b4d7",
+            "leg-4c4c828f-a599-429f-8b9d-2417fc4d28b0"
+          ],
+          "departAt": "2025-12-11T15:22:46+01:00",
+          "arriveAt": "2025-12-12T00:22:46+01:00",
+          "duration": "PT9H0M",
+          "hash": "5KVqLRh9B10=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-38f302c6-9789-4c61-9727-f7bc25ae7ac7": {
+          "sections": [
+            "section-211e3e87-64f4-4c29-8dfe-faf824712d4c",
+            "section-8244ecd3-c1c7-4095-b72c-8502c1a0b497"
+          ],
+          "id": "journey-38f302c6-9789-4c61-9727-f7bc25ae7ac7",
+          "direction": "outward",
+          "legs": [
+            "leg-e428e03f-eec8-432c-8b32-4056d91fa8db",
+            "leg-30959bc6-fc57-47f2-aac7-d6b9887afbd5"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T22:22:46+01:00",
+          "duration": "PT8H0M",
+          "hash": "cb9QZ1aolrM=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-8e2f2b38-8fae-4fbe-8574-0d3804438f06": {
+          "sections": [
+            "section-ece68bf4-e2ae-4fad-bfaf-cc17260eef2b",
+            "section-14d4d0bf-50b0-439f-9c59-d58b25a30a25"
+          ],
+          "id": "journey-8e2f2b38-8fae-4fbe-8574-0d3804438f06",
+          "direction": "outward",
+          "legs": [
+            "leg-233a4a80-1aa7-403f-84dd-079f3ad13d1d",
+            "leg-e80e8e10-344b-432e-b9e7-d54d5c33e451"
+          ],
+          "departAt": "2025-12-11T13:22:46+01:00",
+          "arriveAt": "2025-12-11T19:22:46+01:00",
+          "duration": "PT6H0M",
+          "hash": "pAV4WCRDD/0=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        },
+        "journey-ea6fe58e-61e2-406f-933d-95ef1136a719": {
+          "sections": [
+            "section-155fb232-949e-4772-8393-8ad1d0c4adde",
+            "section-6f5d71fb-64e5-480f-8a70-0cce21df9921"
+          ],
+          "id": "journey-ea6fe58e-61e2-406f-933d-95ef1136a719",
+          "direction": "outward",
+          "legs": [
+            "leg-709279d0-834f-4d4d-b2ca-b2f707b90981",
+            "leg-1c9e03ca-4598-4ec1-8ecf-9bf578549012"
+          ],
+          "departAt": "2025-12-11T14:22:46+01:00",
+          "arriveAt": "2025-12-11T20:22:46+01:00",
+          "duration": "PT6H0M",
+          "hash": "FLE51adehUM=",
+          "hasFirstClassRecommendedStationPair": false,
+          "distanceInKm": 0
+        }
+      },
+      "id": "025f9d1b-7a5a-423e-9414-96cbd62cf752",
+      "expiresAt": "2025-12-11T12:22:46Z",
+      "alternatives": {
+        "dd9a81cb-48f6-46a9-8b6b-9e2fa62ce645%alternative-dd2880e2-e6a9-44e6-a260-cd06f046714b": {
+          "id": "dd9a81cb-48f6-46a9-8b6b-9e2fa62ce645%alternative-dd2880e2-e6a9-44e6-a260-cd06f046714b",
+          "price": {
+            "amount": 155.1,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "40887ba0-baa5-403a-ba49-8db6c0286cce%alternative-6a4b6a4e-561c-485c-ba92-4f05b7716901": {
+          "id": "40887ba0-baa5-403a-ba49-8db6c0286cce%alternative-6a4b6a4e-561c-485c-ba92-4f05b7716901",
+          "price": {
+            "amount": 314.35,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "01883762-f9c4-4a09-9373-be6bdd4cb7dd%alternative-ae33468e-a72c-4866-8651-eac04577d434": {
+          "id": "01883762-f9c4-4a09-9373-be6bdd4cb7dd%alternative-ae33468e-a72c-4866-8651-eac04577d434",
+          "price": {
+            "amount": 62.18,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "160cb84b-ca60-4692-a1e5-beefb5b0f023%alternative-e5ad347a-c5ff-4d2a-bddb-172aeed7f23a": {
+          "id": "160cb84b-ca60-4692-a1e5-beefb5b0f023%alternative-e5ad347a-c5ff-4d2a-bddb-172aeed7f23a",
+          "price": {
+            "amount": 270.7,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "75b2f295-d536-408e-a9bd-7389e9ae70a6%alternative-e6c8f802-43d0-4905-82f4-d54c67531266": {
+          "id": "75b2f295-d536-408e-a9bd-7389e9ae70a6%alternative-e6c8f802-43d0-4905-82f4-d54c67531266",
+          "price": {
+            "amount": 172.98,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "748943f6-1055-4647-9735-b96a11df0fb8%alternative-258d1d84-7892-4cc7-a224-ad8e543c7b9f": {
+          "id": "748943f6-1055-4647-9735-b96a11df0fb8%alternative-258d1d84-7892-4cc7-a224-ad8e543c7b9f",
+          "price": {
+            "amount": 329.4,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "caa597b3-9614-4d74-b10c-f714fdedd241%alternative-90cd42d4-53d8-4002-b252-cd6babc1e40d": {
+          "id": "caa597b3-9614-4d74-b10c-f714fdedd241%alternative-90cd42d4-53d8-4002-b252-cd6babc1e40d",
+          "price": {
+            "amount": 251.8,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "201401c5-1052-414b-81df-9557cd24b137%alternative-596e5fc3-2560-4f3b-a785-490519980aae": {
+          "id": "201401c5-1052-414b-81df-9557cd24b137%alternative-596e5fc3-2560-4f3b-a785-490519980aae",
+          "price": {
+            "amount": 288.47,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d134652f-eb1e-48f1-8b02-479925c18ab4%alternative-4f4dc076-96f8-4c19-bf08-3b696e318b80": {
+          "id": "d134652f-eb1e-48f1-8b02-479925c18ab4%alternative-4f4dc076-96f8-4c19-bf08-3b696e318b80",
+          "price": {
+            "amount": 110.84,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d1f6747d-6223-43c0-9e1c-1d01cdbf0472%alternative-57b4c03f-1178-4545-b77a-dda89bbd2657": {
+          "id": "d1f6747d-6223-43c0-9e1c-1d01cdbf0472%alternative-57b4c03f-1178-4545-b77a-dda89bbd2657",
+          "price": {
+            "amount": 227.71,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "243a352a-8481-481a-8cd2-c2ccf326f80d%alternative-db6d6ee2-6dd3-4f2a-a45d-90b1bb567e72": {
+          "id": "243a352a-8481-481a-8cd2-c2ccf326f80d%alternative-db6d6ee2-6dd3-4f2a-a45d-90b1bb567e72",
+          "price": {
+            "amount": 85.61,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "68fea76b-8afb-4b6a-b814-b5c921ecaf26%alternative-b9ec1876-aef5-4971-be8d-569659e6650c": {
+          "id": "68fea76b-8afb-4b6a-b814-b5c921ecaf26%alternative-b9ec1876-aef5-4971-be8d-569659e6650c",
+          "price": {
+            "amount": 105.65,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "42603ccf-d449-4468-8c7b-6d06c333771e%alternative-2e7dbd58-e457-4985-9b09-27026ad98b1d": {
+          "id": "42603ccf-d449-4468-8c7b-6d06c333771e%alternative-2e7dbd58-e457-4985-9b09-27026ad98b1d",
+          "price": {
+            "amount": 270.12,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "b8d4a8e7-673d-44ca-98ee-436bbce99b53%alternative-18894c8e-5e81-480b-95d2-74a3e278edad": {
+          "id": "b8d4a8e7-673d-44ca-98ee-436bbce99b53%alternative-18894c8e-5e81-480b-95d2-74a3e278edad",
+          "price": {
+            "amount": 329.93,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "636da277-4a01-43ef-9af7-717b8a45dc28%alternative-ef835030-6595-4b04-a35a-88b806adb010": {
+          "id": "636da277-4a01-43ef-9af7-717b8a45dc28%alternative-ef835030-6595-4b04-a35a-88b806adb010",
+          "price": {
+            "amount": 233.49,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "9b7af8cc-5335-4d3b-8f76-aea36911a7ff%alternative-e9716238-24be-4a99-b5ef-8a8a504870ca": {
+          "id": "9b7af8cc-5335-4d3b-8f76-aea36911a7ff%alternative-e9716238-24be-4a99-b5ef-8a8a504870ca",
+          "price": {
+            "amount": 219.82,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "e0edf94f-9a84-42e1-9010-ce18b86c61b5%alternative-9a52b455-6b59-4eae-b2e6-9f72583b33b5": {
+          "id": "e0edf94f-9a84-42e1-9010-ce18b86c61b5%alternative-9a52b455-6b59-4eae-b2e6-9f72583b33b5",
+          "price": {
+            "amount": 305.81,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d00c23b3-d75d-4b7e-818d-e547ebbfee33%alternative-a1b4135a-edde-4dbc-bc3d-6cbb8c9abdf7": {
+          "id": "d00c23b3-d75d-4b7e-818d-e547ebbfee33%alternative-a1b4135a-edde-4dbc-bc3d-6cbb8c9abdf7",
+          "price": {
+            "amount": 169.26,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "b082408f-7432-4832-b681-ed9e1d283d8a%alternative-584ee78a-180b-4e79-917a-b8b7219bb974": {
+          "id": "b082408f-7432-4832-b681-ed9e1d283d8a%alternative-584ee78a-180b-4e79-917a-b8b7219bb974",
+          "price": {
+            "amount": 271.87,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "afa40063-8475-4f7d-8487-c87a672b2880%alternative-7e1689aa-a9c8-4b74-9a05-b3117561642d": {
+          "id": "afa40063-8475-4f7d-8487-c87a672b2880%alternative-7e1689aa-a9c8-4b74-9a05-b3117561642d",
+          "price": {
+            "amount": 257.97,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "a2dd76a2-05d8-4b04-9afa-520b5dc4a0af%alternative-785dc315-de68-4708-a827-5dd25a4ec48d": {
+          "id": "a2dd76a2-05d8-4b04-9afa-520b5dc4a0af%alternative-785dc315-de68-4708-a827-5dd25a4ec48d",
+          "price": {
+            "amount": 292.91,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "66aa641b-c189-445d-b5e5-8a0bd486cad4%alternative-0c48bd90-5d2e-48ee-9475-c42236c071bb": {
+          "id": "66aa641b-c189-445d-b5e5-8a0bd486cad4%alternative-0c48bd90-5d2e-48ee-9475-c42236c071bb",
+          "price": {
+            "amount": 284.35,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d233825c-3fcf-49b8-98fb-bac0a1c2b96c%alternative-d82f1a1b-91c4-4e4c-aa27-63b17d156096": {
+          "id": "d233825c-3fcf-49b8-98fb-bac0a1c2b96c%alternative-d82f1a1b-91c4-4e4c-aa27-63b17d156096",
+          "price": {
+            "amount": 130.81,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d97055d0-8230-4120-b1e2-a99dac269481%alternative-7c756ed7-6b16-4f8d-8592-d14d3514f581": {
+          "id": "d97055d0-8230-4120-b1e2-a99dac269481%alternative-7c756ed7-6b16-4f8d-8592-d14d3514f581",
+          "price": {
+            "amount": 58.26,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "3fb73bee-94bb-480d-974b-81983745c3d6%alternative-409d17a0-513c-43dd-bb30-f0287822d830": {
+          "id": "3fb73bee-94bb-480d-974b-81983745c3d6%alternative-409d17a0-513c-43dd-bb30-f0287822d830",
+          "price": {
+            "amount": 315.5,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "f71a2b28-fbbd-46b2-9f1b-a1b52b3ac671%alternative-d851f2ec-1074-47f5-b159-2ace3fc7c70c": {
+          "id": "f71a2b28-fbbd-46b2-9f1b-a1b52b3ac671%alternative-d851f2ec-1074-47f5-b159-2ace3fc7c70c",
+          "price": {
+            "amount": 74.01,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "0ac719b0-e3aa-4b76-83df-de2c389cf043%alternative-f9806908-693c-4ccd-bf46-1cd4cb509e25": {
+          "id": "0ac719b0-e3aa-4b76-83df-de2c389cf043%alternative-f9806908-693c-4ccd-bf46-1cd4cb509e25",
+          "price": {
+            "amount": 342.14,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "16861184-8570-4aa5-861f-702151db1c51%alternative-1f10a3a0-74e5-44ce-94a8-404c5b70b01a": {
+          "id": "16861184-8570-4aa5-861f-702151db1c51%alternative-1f10a3a0-74e5-44ce-94a8-404c5b70b01a",
+          "price": {
+            "amount": 222.2,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "c11a5c1a-7317-4cb4-9671-7ff22147ee7c%alternative-b987d270-6cb2-4162-974d-6dfcc5c86238": {
+          "id": "c11a5c1a-7317-4cb4-9671-7ff22147ee7c%alternative-b987d270-6cb2-4162-974d-6dfcc5c86238",
+          "price": {
+            "amount": 196.21,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "593a5e9f-b707-448c-9325-741cac59d4eb%alternative-02fd2ccc-f0d8-431f-b11b-610529bb8bf9": {
+          "id": "593a5e9f-b707-448c-9325-741cac59d4eb%alternative-02fd2ccc-f0d8-431f-b11b-610529bb8bf9",
+          "price": {
+            "amount": 343.72,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "db26d5cd-21f2-4a36-a9b5-fbff15680fa8%alternative-cce874e0-6a5a-4b3d-bd99-e4243bfadb99": {
+          "id": "db26d5cd-21f2-4a36-a9b5-fbff15680fa8%alternative-cce874e0-6a5a-4b3d-bd99-e4243bfadb99",
+          "price": {
+            "amount": 165.95,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "1ed9d776-5157-4fe4-972b-89c6c68c04ea%alternative-095b63d6-ad85-4e00-8957-4a99864baf69": {
+          "id": "1ed9d776-5157-4fe4-972b-89c6c68c04ea%alternative-095b63d6-ad85-4e00-8957-4a99864baf69",
+          "price": {
+            "amount": 137.75,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "e6c54fd2-1736-40a9-a8dc-eb14847dd3b4%alternative-255fc401-173a-4573-a46f-bf498fd875de": {
+          "id": "e6c54fd2-1736-40a9-a8dc-eb14847dd3b4%alternative-255fc401-173a-4573-a46f-bf498fd875de",
+          "price": {
+            "amount": 261.87,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "c500d4b8-30d5-4154-894a-3f630902a7cc%alternative-74219192-50b7-4332-8fce-0262a4ca7c0c": {
+          "id": "c500d4b8-30d5-4154-894a-3f630902a7cc%alternative-74219192-50b7-4332-8fce-0262a4ca7c0c",
+          "price": {
+            "amount": 106.56,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "cdd71aa1-55f8-40b5-ad32-4ad8eece59e8%alternative-45f8af1d-7e5d-48dd-9db4-b0e6ee5eee6a": {
+          "id": "cdd71aa1-55f8-40b5-ad32-4ad8eece59e8%alternative-45f8af1d-7e5d-48dd-9db4-b0e6ee5eee6a",
+          "price": {
+            "amount": 75.79,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "6527266b-010e-4e3b-aa4a-96b364148536%alternative-fbabb92c-e97a-48f2-8c82-89d79998ef20": {
+          "id": "6527266b-010e-4e3b-aa4a-96b364148536%alternative-fbabb92c-e97a-48f2-8c82-89d79998ef20",
+          "price": {
+            "amount": 83.98,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "4f08b478-f60c-42c8-ab44-19161802ebdd%alternative-8a188e5d-f823-459f-90d4-e54f7415d6e3": {
+          "id": "4f08b478-f60c-42c8-ab44-19161802ebdd%alternative-8a188e5d-f823-459f-90d4-e54f7415d6e3",
+          "price": {
+            "amount": 80.43,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "cd9eb9fe-72de-4ebe-9803-c9bfad4a3501%alternative-1ea4b5b4-8cf6-4f2d-a473-537f8b9a0763": {
+          "id": "cd9eb9fe-72de-4ebe-9803-c9bfad4a3501%alternative-1ea4b5b4-8cf6-4f2d-a473-537f8b9a0763",
+          "price": {
+            "amount": 216.16,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "f1fb389e-2030-491b-a84b-b82f3a3a3f1d%alternative-4ec48f7a-9342-4dee-8e35-b62c0944f533": {
+          "id": "f1fb389e-2030-491b-a84b-b82f3a3a3f1d%alternative-4ec48f7a-9342-4dee-8e35-b62c0944f533",
+          "price": {
+            "amount": 61.64,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "049e0347-806b-4c4b-90e2-8c059637568b%alternative-d52115de-00aa-46d0-8a8b-18dc719ca6a1": {
+          "id": "049e0347-806b-4c4b-90e2-8c059637568b%alternative-d52115de-00aa-46d0-8a8b-18dc719ca6a1",
+          "price": {
+            "amount": 204.74,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "47aea2f4-9a91-4957-af00-9104390651d2%alternative-95112b73-83ae-4407-a851-16765717ffdd": {
+          "id": "47aea2f4-9a91-4957-af00-9104390651d2%alternative-95112b73-83ae-4407-a851-16765717ffdd",
+          "price": {
+            "amount": 303.37,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "f9711f2c-4726-4963-8436-3e595495f2ff%alternative-ebc1f97c-5a1f-4e25-8447-4f72880b0b6b": {
+          "id": "f9711f2c-4726-4963-8436-3e595495f2ff%alternative-ebc1f97c-5a1f-4e25-8447-4f72880b0b6b",
+          "price": {
+            "amount": 247.04,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "28f042c6-29a8-4aa7-8d4d-3eab4d21f600%alternative-83cc58b7-cc42-4187-b61f-09441cd0d4c3": {
+          "id": "28f042c6-29a8-4aa7-8d4d-3eab4d21f600%alternative-83cc58b7-cc42-4187-b61f-09441cd0d4c3",
+          "price": {
+            "amount": 337.21,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "5b2671cf-1cbd-4e51-a871-0488b4ea2c1e%alternative-5e6d33c1-bfe3-4c9f-a21a-644d6e2de6be": {
+          "id": "5b2671cf-1cbd-4e51-a871-0488b4ea2c1e%alternative-5e6d33c1-bfe3-4c9f-a21a-644d6e2de6be",
+          "price": {
+            "amount": 53.46,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "059dec62-0f65-41d4-aa0c-f61af60c2022%alternative-a4ff0964-1766-43a7-9208-ee55ffba08b3": {
+          "id": "059dec62-0f65-41d4-aa0c-f61af60c2022%alternative-a4ff0964-1766-43a7-9208-ee55ffba08b3",
+          "price": {
+            "amount": 340.07,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "647cdd20-1e70-4f15-9cbe-4a43591bf744%alternative-8481b872-b0a1-49c5-8446-aca13357b073": {
+          "id": "647cdd20-1e70-4f15-9cbe-4a43591bf744%alternative-8481b872-b0a1-49c5-8446-aca13357b073",
+          "price": {
+            "amount": 288.35,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "559d9e8c-80f9-49f0-94fb-7dfa9f6042d4%alternative-0379c708-84a1-408f-9465-4c96c5a678cd": {
+          "id": "559d9e8c-80f9-49f0-94fb-7dfa9f6042d4%alternative-0379c708-84a1-408f-9465-4c96c5a678cd",
+          "price": {
+            "amount": 75.02,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "a19d54bb-b35a-4963-a3c2-21594938e300%alternative-b459141d-49f0-48df-8e27-45f06ca05215": {
+          "id": "a19d54bb-b35a-4963-a3c2-21594938e300%alternative-b459141d-49f0-48df-8e27-45f06ca05215",
+          "price": {
+            "amount": 201.94,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "7a23d4a3-40a4-48f6-870f-0bcf56ae8091%alternative-e54e441f-6c4e-4c65-bda8-58fd339328c3": {
+          "id": "7a23d4a3-40a4-48f6-870f-0bcf56ae8091%alternative-e54e441f-6c4e-4c65-bda8-58fd339328c3",
+          "price": {
+            "amount": 308.67,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "b75004c2-4985-4756-be16-5af321905636%alternative-8ddd51c1-32e6-492f-bccd-910d4d879e54": {
+          "id": "b75004c2-4985-4756-be16-5af321905636%alternative-8ddd51c1-32e6-492f-bccd-910d4d879e54",
+          "price": {
+            "amount": 143.58,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "08f1b968-0d84-4087-b8c4-89e703553488%alternative-9577bba6-dbc3-40f0-bd62-a5c1d5bc00db": {
+          "id": "08f1b968-0d84-4087-b8c4-89e703553488%alternative-9577bba6-dbc3-40f0-bd62-a5c1d5bc00db",
+          "price": {
+            "amount": 193.28,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "39be1b77-09b2-490c-a669-d24949d5b1ff%alternative-8ad52ad8-681d-4b27-bb18-90fe8b52a29a": {
+          "id": "39be1b77-09b2-490c-a669-d24949d5b1ff%alternative-8ad52ad8-681d-4b27-bb18-90fe8b52a29a",
+          "price": {
+            "amount": 243.25,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "92a2f9eb-813e-4cc6-bbc3-0adf84113d6a%alternative-4c32abcb-b6c3-457a-a443-07797368e95d": {
+          "id": "92a2f9eb-813e-4cc6-bbc3-0adf84113d6a%alternative-4c32abcb-b6c3-457a-a443-07797368e95d",
+          "price": {
+            "amount": 203.88,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "45692130-84ab-4c79-bb45-a60cb8079b04%alternative-c4ea4ef8-40b1-4d54-880c-0006e533d587": {
+          "id": "45692130-84ab-4c79-bb45-a60cb8079b04%alternative-c4ea4ef8-40b1-4d54-880c-0006e533d587",
+          "price": {
+            "amount": 144.93,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "c717acbb-a372-48b5-b509-c8692e5f35a9%alternative-7c3c5aa3-76bd-420d-8950-e578dac61e8b": {
+          "id": "c717acbb-a372-48b5-b509-c8692e5f35a9%alternative-7c3c5aa3-76bd-420d-8950-e578dac61e8b",
+          "price": {
+            "amount": 254.21,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "a2a29fb0-f9d4-47bc-8e60-03b723466e06%alternative-ab425ad9-20fc-4c7c-959c-6432767eb0b2": {
+          "id": "a2a29fb0-f9d4-47bc-8e60-03b723466e06%alternative-ab425ad9-20fc-4c7c-959c-6432767eb0b2",
+          "price": {
+            "amount": 271.11,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "adff119f-5812-4db5-9a68-b7d1a6b289dd%alternative-5711935e-ce15-4029-a8cc-4ad487096a58": {
+          "id": "adff119f-5812-4db5-9a68-b7d1a6b289dd%alternative-5711935e-ce15-4029-a8cc-4ad487096a58",
+          "price": {
+            "amount": 296.07,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "60666f2f-1f65-4bdb-b840-2cd3bd29aefd%alternative-3f5d6fb3-4018-4aa9-89b9-6e471aec1ee3": {
+          "id": "60666f2f-1f65-4bdb-b840-2cd3bd29aefd%alternative-3f5d6fb3-4018-4aa9-89b9-6e471aec1ee3",
+          "price": {
+            "amount": 323.62,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "94a40e9e-2338-4893-9e86-23b28fb6c795%alternative-de2b0900-2ff0-437b-9514-1cf88d2e5851": {
+          "id": "94a40e9e-2338-4893-9e86-23b28fb6c795%alternative-de2b0900-2ff0-437b-9514-1cf88d2e5851",
+          "price": {
+            "amount": 51.38,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "af369024-3a3a-429e-8d5c-85bb10dbc720%alternative-0d62f51f-dae8-4282-a4e5-630e1dd5a377": {
+          "id": "af369024-3a3a-429e-8d5c-85bb10dbc720%alternative-0d62f51f-dae8-4282-a4e5-630e1dd5a377",
+          "price": {
+            "amount": 217.69,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "2954bfb4-62b0-461a-9959-6970f309e5fb%alternative-258f4dda-8196-49f5-a663-49d06980af20": {
+          "id": "2954bfb4-62b0-461a-9959-6970f309e5fb%alternative-258f4dda-8196-49f5-a663-49d06980af20",
+          "price": {
+            "amount": 289.17,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "e1cf3985-6dda-4b3a-969d-45cbb444d407%alternative-675848d7-c707-4854-8056-c18b226d55ed": {
+          "id": "e1cf3985-6dda-4b3a-969d-45cbb444d407%alternative-675848d7-c707-4854-8056-c18b226d55ed",
+          "price": {
+            "amount": 113.0,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "7ff12495-27b6-4a0f-b664-650fd6d61ec9%alternative-328b92fe-d2d2-47c4-88e0-941bde094e7a": {
+          "id": "7ff12495-27b6-4a0f-b664-650fd6d61ec9%alternative-328b92fe-d2d2-47c4-88e0-941bde094e7a",
+          "price": {
+            "amount": 122.74,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "c314443f-7f1c-4890-b984-2bd7b96f1b1d%alternative-a35f8a68-4c50-47c8-85cf-e91eac532405": {
+          "id": "c314443f-7f1c-4890-b984-2bd7b96f1b1d%alternative-a35f8a68-4c50-47c8-85cf-e91eac532405",
+          "price": {
+            "amount": 272.3,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "680d035b-fed9-4075-aafc-d616152d3d1e%alternative-4844d334-2a52-45fd-bf88-ecd6a0b5f245": {
+          "id": "680d035b-fed9-4075-aafc-d616152d3d1e%alternative-4844d334-2a52-45fd-bf88-ecd6a0b5f245",
+          "price": {
+            "amount": 180.29,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "98223dc7-d8cd-42b1-a607-77b1395cb4f2%alternative-dba368ac-6b88-4deb-bcd7-b52788b56b96": {
+          "id": "98223dc7-d8cd-42b1-a607-77b1395cb4f2%alternative-dba368ac-6b88-4deb-bcd7-b52788b56b96",
+          "price": {
+            "amount": 60.02,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "cbe54f8e-07ef-4574-b007-13035a11e734%alternative-70c5dfcb-7e0f-4d77-9538-20fa9b335f67": {
+          "id": "cbe54f8e-07ef-4574-b007-13035a11e734%alternative-70c5dfcb-7e0f-4d77-9538-20fa9b335f67",
+          "price": {
+            "amount": 193.36,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "3a2a3786-6b4b-4742-8b54-6c52f1b00b55%alternative-2018b18b-7f54-4fdb-9e23-8a3c1b532a39": {
+          "id": "3a2a3786-6b4b-4742-8b54-6c52f1b00b55%alternative-2018b18b-7f54-4fdb-9e23-8a3c1b532a39",
+          "price": {
+            "amount": 305.09,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "ba518cd7-9605-4eb6-841f-e3adc1a54a40%alternative-ca14c1bd-3cde-44e9-8733-a88d2472fbfe": {
+          "id": "ba518cd7-9605-4eb6-841f-e3adc1a54a40%alternative-ca14c1bd-3cde-44e9-8733-a88d2472fbfe",
+          "price": {
+            "amount": 261.12,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "e0f71598-449a-43ac-b958-725b00637a2e%alternative-0b07e285-da93-40a1-8c0e-79d70f6f8827": {
+          "id": "e0f71598-449a-43ac-b958-725b00637a2e%alternative-0b07e285-da93-40a1-8c0e-79d70f6f8827",
+          "price": {
+            "amount": 250.85,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "b9d6e586-f54a-4671-8904-b27e9362e48b%alternative-690a7038-d4b4-40cf-ae33-1c388376b688": {
+          "id": "b9d6e586-f54a-4671-8904-b27e9362e48b%alternative-690a7038-d4b4-40cf-ae33-1c388376b688",
+          "price": {
+            "amount": 188.75,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "131ebee8-1110-40ef-b65f-fcddeb4c51e2%alternative-16b76839-671b-497d-9329-de556b7a9e1a": {
+          "id": "131ebee8-1110-40ef-b65f-fcddeb4c51e2%alternative-16b76839-671b-497d-9329-de556b7a9e1a",
+          "price": {
+            "amount": 85.53,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "25e66cc7-342d-45d2-9c52-6cc5d76cb1f7%alternative-1ae8a1bc-4cfe-42eb-b5ac-bf2c608fc32e": {
+          "id": "25e66cc7-342d-45d2-9c52-6cc5d76cb1f7%alternative-1ae8a1bc-4cfe-42eb-b5ac-bf2c608fc32e",
+          "price": {
+            "amount": 63.93,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "d1c45a5a-fb7a-4dd0-a3fc-ae5bf2006c5d%alternative-2f2e9fa6-2816-49d0-a5de-f3a38f67b072": {
+          "id": "d1c45a5a-fb7a-4dd0-a3fc-ae5bf2006c5d%alternative-2f2e9fa6-2816-49d0-a5de-f3a38f67b072",
+          "price": {
+            "amount": 70.71,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "aca2d165-a23c-426b-8b3f-ac60be4669db%alternative-87871930-9de8-47ea-ab18-c593bbc0bd55": {
+          "id": "aca2d165-a23c-426b-8b3f-ac60be4669db%alternative-87871930-9de8-47ea-ab18-c593bbc0bd55",
+          "price": {
+            "amount": 199.1,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "0902716b-8af1-4933-a9e1-1b1f734a07f8%alternative-c70de985-cbfb-4799-a415-9fd8b0c2b196": {
+          "id": "0902716b-8af1-4933-a9e1-1b1f734a07f8%alternative-c70de985-cbfb-4799-a415-9fd8b0c2b196",
+          "price": {
+            "amount": 78.25,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "b874f2b4-3ed7-4685-a4ac-af73df78db23%alternative-f3d18599-cfda-4779-8d3d-9947ebecf7ab": {
+          "id": "b874f2b4-3ed7-4685-a4ac-af73df78db23%alternative-f3d18599-cfda-4779-8d3d-9947ebecf7ab",
+          "price": {
+            "amount": 261.8,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "11364040-205c-4f89-bb52-3827f4ad06b4%alternative-6204c7b4-1b58-43be-91ba-f25734544eae": {
+          "id": "11364040-205c-4f89-bb52-3827f4ad06b4%alternative-6204c7b4-1b58-43be-91ba-f25734544eae",
+          "price": {
+            "amount": 51.84,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "3c3a1be6-e4b2-4672-9425-edabe9642f9e%alternative-09597248-46d7-4f3c-8a2a-82c382270f04": {
+          "id": "3c3a1be6-e4b2-4672-9425-edabe9642f9e%alternative-09597248-46d7-4f3c-8a2a-82c382270f04",
+          "price": {
+            "amount": 61.69,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "4d0504ee-96d6-43a0-ae42-c3a73643d6e8%alternative-abf825ba-3153-481a-a16d-7ffb0afa9c10": {
+          "id": "4d0504ee-96d6-43a0-ae42-c3a73643d6e8%alternative-abf825ba-3153-481a-a16d-7ffb0afa9c10",
+          "price": {
+            "amount": 201.93,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        },
+        "702632e0-2b48-4548-a0de-ac2a2fd9f0c7%alternative-35c6d279-c355-4b55-87d0-bceb98057d95": {
+          "id": "702632e0-2b48-4548-a0de-ac2a2fd9f0c7%alternative-35c6d279-c355-4b55-87d0-bceb98057d95",
+          "price": {
+            "amount": 95.37,
+            "currencyCode": "EUR",
+            "currencyConversionApplied": false
+          }
+        }
+      },
+      "sections": {
+        "section-c701ea0c-2c7b-4094-ab7f-bdc1e472a40a": {
+          "alternatives": [
+            "dd9a81cb-48f6-46a9-8b6b-9e2fa62ce645%alternative-dd2880e2-e6a9-44e6-a260-cd06f046714b",
+            "40887ba0-baa5-403a-ba49-8db6c0286cce%alternative-6a4b6a4e-561c-485c-ba92-4f05b7716901"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-28998906-d86d-4558-92d1-87e6811d248d"
+        },
+        "section-39ae50d2-7097-454a-86dd-bf16ea0fbc41": {
+          "alternatives": [
+            "01883762-f9c4-4a09-9373-be6bdd4cb7dd%alternative-ae33468e-a72c-4866-8651-eac04577d434",
+            "160cb84b-ca60-4692-a1e5-beefb5b0f023%alternative-e5ad347a-c5ff-4d2a-bddb-172aeed7f23a",
+            "75b2f295-d536-408e-a9bd-7389e9ae70a6%alternative-e6c8f802-43d0-4905-82f4-d54c67531266",
+            "748943f6-1055-4647-9735-b96a11df0fb8%alternative-258d1d84-7892-4cc7-a224-ad8e543c7b9f"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-08fcba0b-e4ec-4d56-8738-261f5007b087"
+        },
+        "section-6cf60ef0-e4ff-4305-9ed6-096fbf5833c0": {
+          "alternatives": [
+            "caa597b3-9614-4d74-b10c-f714fdedd241%alternative-90cd42d4-53d8-4002-b252-cd6babc1e40d",
+            "201401c5-1052-414b-81df-9557cd24b137%alternative-596e5fc3-2560-4f3b-a785-490519980aae"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-84a5a544-bf23-4edf-ae96-f12f1cb9ae85"
+        },
+        "section-7744ec3e-05bd-40b6-9951-ca7b36aa51da": {
+          "alternatives": [
+            "d134652f-eb1e-48f1-8b02-479925c18ab4%alternative-4f4dc076-96f8-4c19-bf08-3b696e318b80",
+            "d1f6747d-6223-43c0-9e1c-1d01cdbf0472%alternative-57b4c03f-1178-4545-b77a-dda89bbd2657"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-c3da4fc6-521c-466e-932c-33e18ad015b4"
+        },
+        "section-39ed2809-3d34-46cf-9477-b2caecbe4185": {
+          "alternatives": [
+            "243a352a-8481-481a-8cd2-c2ccf326f80d%alternative-db6d6ee2-6dd3-4f2a-a45d-90b1bb567e72",
+            "68fea76b-8afb-4b6a-b814-b5c921ecaf26%alternative-b9ec1876-aef5-4971-be8d-569659e6650c",
+            "42603ccf-d449-4468-8c7b-6d06c333771e%alternative-2e7dbd58-e457-4985-9b09-27026ad98b1d",
+            "b8d4a8e7-673d-44ca-98ee-436bbce99b53%alternative-18894c8e-5e81-480b-95d2-74a3e278edad"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-f7b922d7-0906-4394-a545-b716f9f157ba"
+        },
+        "section-f30f8f13-beed-4eec-8663-fe71177405bf": {
+          "alternatives": [
+            "636da277-4a01-43ef-9af7-717b8a45dc28%alternative-ef835030-6595-4b04-a35a-88b806adb010",
+            "9b7af8cc-5335-4d3b-8f76-aea36911a7ff%alternative-e9716238-24be-4a99-b5ef-8a8a504870ca",
+            "e0edf94f-9a84-42e1-9010-ce18b86c61b5%alternative-9a52b455-6b59-4eae-b2e6-9f72583b33b5"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-d9d72c0a-d95a-4f36-8f8e-bc3076b1c233"
+        },
+        "section-f81a539c-fa8b-40c9-a285-983e8e25fd52": {
+          "alternatives": [
+            "d00c23b3-d75d-4b7e-818d-e547ebbfee33%alternative-a1b4135a-edde-4dbc-bc3d-6cbb8c9abdf7",
+            "b082408f-7432-4832-b681-ed9e1d283d8a%alternative-584ee78a-180b-4e79-917a-b8b7219bb974",
+            "afa40063-8475-4f7d-8487-c87a672b2880%alternative-7e1689aa-a9c8-4b74-9a05-b3117561642d",
+            "a2dd76a2-05d8-4b04-9afa-520b5dc4a0af%alternative-785dc315-de68-4708-a827-5dd25a4ec48d"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-84e10468-9e94-4752-a9e4-9ee1b066925c"
+        },
+        "section-15dc5a06-84b5-4863-a708-24a324520c83": {
+          "alternatives": [
+            "66aa641b-c189-445d-b5e5-8a0bd486cad4%alternative-0c48bd90-5d2e-48ee-9475-c42236c071bb",
+            "d233825c-3fcf-49b8-98fb-bac0a1c2b96c%alternative-d82f1a1b-91c4-4e4c-aa27-63b17d156096",
+            "d97055d0-8230-4120-b1e2-a99dac269481%alternative-7c756ed7-6b16-4f8d-8592-d14d3514f581",
+            "3fb73bee-94bb-480d-974b-81983745c3d6%alternative-409d17a0-513c-43dd-bb30-f0287822d830"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-359925f2-0e6b-446a-92fd-8436855de201"
+        },
+        "section-177520d7-ad80-468d-8b4e-b26d8498366f": {
+          "alternatives": [
+            "f71a2b28-fbbd-46b2-9f1b-a1b52b3ac671%alternative-d851f2ec-1074-47f5-b159-2ace3fc7c70c",
+            "0ac719b0-e3aa-4b76-83df-de2c389cf043%alternative-f9806908-693c-4ccd-bf46-1cd4cb509e25",
+            "16861184-8570-4aa5-861f-702151db1c51%alternative-1f10a3a0-74e5-44ce-94a8-404c5b70b01a"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-8e6aa525-f8b0-41f7-8d56-cc6b65d49992"
+        },
+        "section-e9f3f3fe-1efa-48df-98d6-8f35897d3f06": {
+          "alternatives": [
+            "c11a5c1a-7317-4cb4-9671-7ff22147ee7c%alternative-b987d270-6cb2-4162-974d-6dfcc5c86238",
+            "593a5e9f-b707-448c-9325-741cac59d4eb%alternative-02fd2ccc-f0d8-431f-b11b-610529bb8bf9",
+            "db26d5cd-21f2-4a36-a9b5-fbff15680fa8%alternative-cce874e0-6a5a-4b3d-bd99-e4243bfadb99"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-cd41c24f-92d5-4143-9984-371a260f7ab2"
+        },
+        "section-26427fd5-e864-4396-a4fe-f0f7c6992030": {
+          "alternatives": [
+            "1ed9d776-5157-4fe4-972b-89c6c68c04ea%alternative-095b63d6-ad85-4e00-8957-4a99864baf69",
+            "e6c54fd2-1736-40a9-a8dc-eb14847dd3b4%alternative-255fc401-173a-4573-a46f-bf498fd875de"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-976356c6-1aed-4408-97de-e76a66bec274"
+        },
+        "section-220fab06-eece-4434-94dd-a3e4a2fb1868": {
+          "alternatives": [
+            "c500d4b8-30d5-4154-894a-3f630902a7cc%alternative-74219192-50b7-4332-8fce-0262a4ca7c0c",
+            "cdd71aa1-55f8-40b5-ad32-4ad8eece59e8%alternative-45f8af1d-7e5d-48dd-9db4-b0e6ee5eee6a"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-49614096-de1c-4d7e-9d18-a08fac64601b"
+        },
+        "section-c8102a63-de31-4d6b-ac35-8e8d945f544c": {
+          "alternatives": [
+            "6527266b-010e-4e3b-aa4a-96b364148536%alternative-fbabb92c-e97a-48f2-8c82-89d79998ef20",
+            "4f08b478-f60c-42c8-ab44-19161802ebdd%alternative-8a188e5d-f823-459f-90d4-e54f7415d6e3"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-cc255e99-6a3e-473f-80e4-1788dece1406"
+        },
+        "section-03256c7a-9795-4cde-9d8a-0661e01dbdc0": {
+          "alternatives": [
+            "cd9eb9fe-72de-4ebe-9803-c9bfad4a3501%alternative-1ea4b5b4-8cf6-4f2d-a473-537f8b9a0763",
+            "f1fb389e-2030-491b-a84b-b82f3a3a3f1d%alternative-4ec48f7a-9342-4dee-8e35-b62c0944f533",
+            "049e0347-806b-4c4b-90e2-8c059637568b%alternative-d52115de-00aa-46d0-8a8b-18dc719ca6a1",
+            "47aea2f4-9a91-4957-af00-9104390651d2%alternative-95112b73-83ae-4407-a851-16765717ffdd"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-f70c2045-65d8-4efc-b708-0dc133e9d702"
+        },
+        "section-a60c7f4b-226a-4134-91c2-d9af80f826ac": {
+          "alternatives": [
+            "f9711f2c-4726-4963-8436-3e595495f2ff%alternative-ebc1f97c-5a1f-4e25-8447-4f72880b0b6b",
+            "28f042c6-29a8-4aa7-8d4d-3eab4d21f600%alternative-83cc58b7-cc42-4187-b61f-09441cd0d4c3",
+            "5b2671cf-1cbd-4e51-a871-0488b4ea2c1e%alternative-5e6d33c1-bfe3-4c9f-a21a-644d6e2de6be",
+            "059dec62-0f65-41d4-aa0c-f61af60c2022%alternative-a4ff0964-1766-43a7-9208-ee55ffba08b3"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-cdb8cabd-4c0e-4b47-95f0-2ae117ab533f"
+        },
+        "section-73d09c13-cbd8-4f69-a27a-5eb5175585c0": {
+          "alternatives": [
+            "647cdd20-1e70-4f15-9cbe-4a43591bf744%alternative-8481b872-b0a1-49c5-8446-aca13357b073",
+            "559d9e8c-80f9-49f0-94fb-7dfa9f6042d4%alternative-0379c708-84a1-408f-9465-4c96c5a678cd",
+            "a19d54bb-b35a-4963-a3c2-21594938e300%alternative-b459141d-49f0-48df-8e27-45f06ca05215",
+            "7a23d4a3-40a4-48f6-870f-0bcf56ae8091%alternative-e54e441f-6c4e-4c65-bda8-58fd339328c3"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-c785cc51-c8ce-4c83-af03-c96462ddd4af"
+        },
+        "section-440ef7ce-8d50-4998-99fd-b1cc04a6f518": {
+          "alternatives": [
+            "b75004c2-4985-4756-be16-5af321905636%alternative-8ddd51c1-32e6-492f-bccd-910d4d879e54",
+            "08f1b968-0d84-4087-b8c4-89e703553488%alternative-9577bba6-dbc3-40f0-bd62-a5c1d5bc00db",
+            "39be1b77-09b2-490c-a669-d24949d5b1ff%alternative-8ad52ad8-681d-4b27-bb18-90fe8b52a29a",
+            "92a2f9eb-813e-4cc6-bbc3-0adf84113d6a%alternative-4c32abcb-b6c3-457a-a443-07797368e95d"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-4df6743f-459c-4ec1-a4f0-16b73c90bf6a"
+        },
+        "section-74a298d0-9f1b-4651-8a69-b7456b516f75": {
+          "alternatives": [
+            "45692130-84ab-4c79-bb45-a60cb8079b04%alternative-c4ea4ef8-40b1-4d54-880c-0006e533d587",
+            "c717acbb-a372-48b5-b509-c8692e5f35a9%alternative-7c3c5aa3-76bd-420d-8950-e578dac61e8b",
+            "a2a29fb0-f9d4-47bc-8e60-03b723466e06%alternative-ab425ad9-20fc-4c7c-959c-6432767eb0b2",
+            "adff119f-5812-4db5-9a68-b7d1a6b289dd%alternative-5711935e-ce15-4029-a8cc-4ad487096a58"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-1810380c-db63-41a8-a455-1080aeaf3368"
+        },
+        "section-2ad5b846-b525-40d0-9d38-76c52ae19f51": {
+          "alternatives": [
+            "60666f2f-1f65-4bdb-b840-2cd3bd29aefd%alternative-3f5d6fb3-4018-4aa9-89b9-6e471aec1ee3",
+            "94a40e9e-2338-4893-9e86-23b28fb6c795%alternative-de2b0900-2ff0-437b-9514-1cf88d2e5851",
+            "af369024-3a3a-429e-8d5c-85bb10dbc720%alternative-0d62f51f-dae8-4282-a4e5-630e1dd5a377",
+            "2954bfb4-62b0-461a-9959-6970f309e5fb%alternative-258f4dda-8196-49f5-a663-49d06980af20"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-b08f46ca-2cdb-4efa-8f03-0df4928a150d"
+        },
+        "section-35b5158f-214e-4195-8cf8-bd2d9a15e911": {
+          "alternatives": [
+            "e1cf3985-6dda-4b3a-969d-45cbb444d407%alternative-675848d7-c707-4854-8056-c18b226d55ed",
+            "7ff12495-27b6-4a0f-b664-650fd6d61ec9%alternative-328b92fe-d2d2-47c4-88e0-941bde094e7a",
+            "c314443f-7f1c-4890-b984-2bd7b96f1b1d%alternative-a35f8a68-4c50-47c8-85cf-e91eac532405"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-e6eb0c1e-0f75-449c-9713-66804c0409a1"
+        },
+        "section-211e3e87-64f4-4c29-8dfe-faf824712d4c": {
+          "alternatives": [
+            "680d035b-fed9-4075-aafc-d616152d3d1e%alternative-4844d334-2a52-45fd-bf88-ecd6a0b5f245",
+            "98223dc7-d8cd-42b1-a607-77b1395cb4f2%alternative-dba368ac-6b88-4deb-bcd7-b52788b56b96",
+            "cbe54f8e-07ef-4574-b007-13035a11e734%alternative-70c5dfcb-7e0f-4d77-9538-20fa9b335f67"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-c8674474-3e49-4601-bda0-9687a57e3543"
+        },
+        "section-8244ecd3-c1c7-4095-b72c-8502c1a0b497": {
+          "alternatives": [
+            "3a2a3786-6b4b-4742-8b54-6c52f1b00b55%alternative-2018b18b-7f54-4fdb-9e23-8a3c1b532a39",
+            "ba518cd7-9605-4eb6-841f-e3adc1a54a40%alternative-ca14c1bd-3cde-44e9-8733-a88d2472fbfe",
+            "e0f71598-449a-43ac-b958-725b00637a2e%alternative-0b07e285-da93-40a1-8c0e-79d70f6f8827"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-c6c07d84-a434-4703-8ac9-b9a15047a4da"
+        },
+        "section-ece68bf4-e2ae-4fad-bfaf-cc17260eef2b": {
+          "alternatives": [
+            "b9d6e586-f54a-4671-8904-b27e9362e48b%alternative-690a7038-d4b4-40cf-ae33-1c388376b688",
+            "131ebee8-1110-40ef-b65f-fcddeb4c51e2%alternative-16b76839-671b-497d-9329-de556b7a9e1a",
+            "25e66cc7-342d-45d2-9c52-6cc5d76cb1f7%alternative-1ae8a1bc-4cfe-42eb-b5ac-bf2c608fc32e"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-b93686dc-5651-4c1b-a428-61105db4e069"
+        },
+        "section-14d4d0bf-50b0-439f-9c59-d58b25a30a25": {
+          "alternatives": [
+            "d1c45a5a-fb7a-4dd0-a3fc-ae5bf2006c5d%alternative-2f2e9fa6-2816-49d0-a5de-f3a38f67b072",
+            "aca2d165-a23c-426b-8b3f-ac60be4669db%alternative-87871930-9de8-47ea-ab18-c593bbc0bd55"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-b207df4e-f06a-46fd-9789-008cee5badc6"
+        },
+        "section-155fb232-949e-4772-8393-8ad1d0c4adde": {
+          "alternatives": [
+            "0902716b-8af1-4933-a9e1-1b1f734a07f8%alternative-c70de985-cbfb-4799-a415-9fd8b0c2b196",
+            "b874f2b4-3ed7-4685-a4ac-af73df78db23%alternative-f3d18599-cfda-4779-8d3d-9947ebecf7ab",
+            "11364040-205c-4f89-bb52-3827f4ad06b4%alternative-6204c7b4-1b58-43be-91ba-f25734544eae"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-cd6dff2d-1aa2-4110-bd80-029cfc2c277d"
+        },
+        "section-6f5d71fb-64e5-480f-8a70-0cce21df9921": {
+          "alternatives": [
+            "3c3a1be6-e4b2-4672-9425-edabe9642f9e%alternative-09597248-46d7-4f3c-8a2a-82c382270f04",
+            "4d0504ee-96d6-43a0-ae42-c3a73643d6e8%alternative-abf825ba-3153-481a-a16d-7ffb0afa9c10",
+            "702632e0-2b48-4548-a0de-ac2a2fd9f0c7%alternative-35c6d279-c355-4b55-87d0-bceb98057d95"
+          ],
+          "mixedLegComforts": false,
+          "id": "section-33cd5724-4855-4851-b68c-d8f78b5b8fa9"
+        }
+      }
+    }
+  }
+}
